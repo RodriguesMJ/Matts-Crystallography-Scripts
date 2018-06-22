@@ -11,11 +11,9 @@
 #            - CCP4 version 7.0.0
 #            - BUSTER snapshot_20180515 	
 
-#Usage /work/vanmontfort/mrodrigues/processing_scripts/pipeline/BCL6_processing_pipeline.sh ./ICR_pipeline.INP
+#Usage /work/vanmontfort/mrodrigues/processing_scripts/pipeline/ICR_processing_pipeline.sh ./ICR_pipeline.INP
 
-echo Have you remembered to module load gphl? If not buster will fail so it may be better to abort now \(Control Z\)
-echo Waiting 5 seconds...
-sleep 5
+
 #Get reference mtz path from input file
 REF_MTZ=`grep "REF_MTZ" $1 | cut -c 9-`
 IMG_DIR=`grep "IMG_DIR" $1 | cut -c 9-`
