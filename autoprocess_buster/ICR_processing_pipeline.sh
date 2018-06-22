@@ -8,8 +8,8 @@
 #               -COOT, Real space refinement and ligand fitting.
 
 #Tested with - DIALS version with phenix-1.13-2998
-	     - CCP4 version 7.0.0
-	     - BUSTER snapshot_20180515 	
+#            - CCP4 version 7.0.0
+#            - BUSTER snapshot_20180515 	
 
 #Usage /work/vanmontfort/mrodrigues/processing_scripts/pipeline/BCL6_processing_pipeline.sh ./ICR_pipeline.INP
 
