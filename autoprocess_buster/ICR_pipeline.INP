@@ -1,0 +1,28 @@
+############################ USER INPUT ######################### 
+#What directory are the images in
+IMG_DIR=/data/for-example/
+#Supply a reference MTZ for pointless to use to ensure constant indexing, POINTLESS will ignore
+#the spacegroup input if this is given (optional).
+#If you would prefer not to then leave blank, pointless will use the first integrated sweep as
+#a reference.
+
+REF_MTZ=/work/example_reference.mtz
+
+#Copy the Free_R column from another MTZ in aimless, if you would like to generate a new Free R
+#leave blank
+FREE_MTZ=/work/example_reference.mtz 
+FREE_LABEL=FreeR_flag
+#Enter expected spacegroup number, if unknown enter 0
+
+SG=178
+
+#Path to molecular replacement model for Phaser
+PDB_IN=/work/model.pdb
+
+#Path to CIF restraint file if ligand is present in molecular replacement model
+PEP_CIF=/work/ligand.cif
+
+#Job name (for naming mtz out of Pointless / Aimless)
+JOB=example
+XTAL=1
+########################## END USER INPUT #######################
