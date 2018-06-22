@@ -11,7 +11,7 @@
 #            - CCP4 version 7.0.0
 #            - BUSTER snapshot_20180515 	
 
-#Usage /work/vanmontfort/mrodrigues/processing_scripts/pipeline/ICR_processing_pipeline.sh ./ICR_pipeline.INP
+#Usage ./ICR_processing_pipeline.sh ./ICR_pipeline.INP
 
 
 #Get reference mtz path from input file
